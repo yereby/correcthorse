@@ -6,41 +6,22 @@
 
 # Install
 
-Install it locally
+Just clone it where you want :
 ```shell
-npm install correcthorse --save
+git clone https://github.com/yereby/correcthorse.git correcthorse
 ```
-or in global
-```shell
-npm install correcthorse -g
-```
-
-# `correcthorse(options?)`
-
-You'll get back a random strong and readable password
-
-```js
-var correcthorse = require('correcthorse');
-correcthorse();
-// <- 'correct-horse-battery-staple'
-```
-
-You can set a couple of options.
-
-- `length` is the minimum character length allowed
-- `words` is the minimum word count allowed
 
 # CLI
 
 ```shell
-$ correcthorse
+$ ./correcthorse
 correct-horse-battery-staple
 ```
 
 # Language
 You can define a language to use :
 ```shell
-$ correcthorse fr
+$ ./correcthorse fr
 correct-cheval-batterie-base
 ```
 
