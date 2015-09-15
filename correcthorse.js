@@ -28,7 +28,7 @@ function correcthorse (options) {
   var wordlist = require(file);
 
   while (count --> 0 || result.length < len) {
-    result += random() + '-';
+    result += random() + ' ';
   }
 
   return result.slice(0, -1);
