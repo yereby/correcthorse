@@ -15,14 +15,14 @@ git clone https://github.com/yereby/correcthorse.git correcthorse
 
 ```shell
 $ ./correcthorse
-correct-horse-battery-staple
+correct horse battery staple
 ```
 
 # Language
 You can define a language to use :
 ```shell
 $ ./correcthorse fr
-correct-cheval-batterie-base
+correct cheval batterie base
 ```
 
 ## Add a language
